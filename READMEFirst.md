@@ -1,3 +1,11 @@
+# Database setup
+
+1. Create database for prisma
+2. Create .env file in root directory
+3. Fill in db string from .env.example
+
+Your now ready to start creating schemas in ~/prisma/schema.prisma!
+
 # Environment setup
 
 ```
