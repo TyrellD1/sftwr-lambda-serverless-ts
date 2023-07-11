@@ -17,11 +17,10 @@
   "dependencies": {
     "@middy/core": "^3.4.0",
     "@middy/http-json-body-parser": "^3.4.0",
-    "@prisma/client": "^4.15.0",
+    "@prisma/client": "^4.16.2",
     "@types/uuid": "^9.0.2",
     "axios": "^1.4.0",
     "google-auth-library": "^8.8.0",
-    "prisma": "^4.15.0",
     "serverless-offline": "^12.0.4"
   },
   "devDependencies": {
@@ -30,6 +29,7 @@
     "@types/node": "^14.14.25",
     "esbuild": "^0.14.11",
     "json-schema-to-ts": "^1.5.0",
+    "prisma": "^4.16.2",
     "serverless": "^3.0.0",
     "serverless-esbuild": "^1.23.3",
     "ts-node": "^10.4.0",

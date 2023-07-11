@@ -47,7 +47,7 @@ const capitalize = (str: string) => {
   const clArgs: IClArgs = formCommandLineFlagsArgs();
   
   if (!clArgs.title)
-    throw new Error("You must provide a title for the function");
+    throw new Error("You must provide a title for your functions");
 
   await mkdirSync(`./src/functions/${clArgs.title}`);
 
